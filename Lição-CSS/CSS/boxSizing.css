@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    /* Normalmente, utiliza-se a declaração 'box-sizing: border-box' no root */
+}
+
+.div1 {
+    box-sizing: content-box; /* Soma as proporções de margin + border + padding + element */
+    height: 400px;
+    width: 400px;
+    border: 5px solid red;
+    background-color: lightgrey;
+}
+
+.div2 {
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+    width: 400px;
+    border: 5px solid green;
+    background-color: lightblue;
+
+    box-sizing: border-box; /* Considera somente as proporções de dentro do elemento */
+}

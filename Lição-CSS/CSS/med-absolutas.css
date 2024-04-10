@@ -1,0 +1,17 @@
+* {
+    font-size: 20px; /* declaração zera o padrão do root */
+}
+
+p {
+    font-size: 3rem; /* 3 vezes o tamanho do elemento raiz (nesse caso, 20px) */
+    /* padrão: 1rem = 16px */
+}
+
+.elemento1 {
+    font-size: 20px; /* Se alterar o tamanho da fonte do elemteno1, também será alterado no elemento2 */
+}
+
+.elemento2 {
+    font-size: 2em; /* 1em = 20px */
+    /* 1em é o tamanho da fonte da classe pai */
+}
