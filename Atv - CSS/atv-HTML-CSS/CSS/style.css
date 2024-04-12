@@ -11,13 +11,15 @@
 header {
     padding: 15px;
     height: 25vh;
-    font-size: 5rem;
+    font-size: 1rem;
 }
 
 main {
     margin: 20px;
     padding: 40px;
-    height: 100vh;
+    height: 100%;
+    /* overflow: hidden; */
+    /* overflow-y: auto; */
 }
 
 footer {
@@ -26,6 +28,7 @@ footer {
     background-color: #307CBF;
     height: 50vh;
     width: 100vw;
+
 }
 
 h1 {
@@ -48,16 +51,16 @@ a {
 }
 
 nav {
-    background-color: #72C1F2;
     padding: 30px;
+    background-color: #72C1F2;
     text-align: center;
     font-weight: 700;
 }
 
-figure {
-    text-align: center;
-}
 
-img {
-    height: 500px;
-}
+/* 
+form {
+    padding: 20px;
+    border: 1px solid black;
+    display: inline-block;
+} */
