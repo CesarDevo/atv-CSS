@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,14 +11,16 @@
 }
 
 header {
+    margin-top: 15px;
     padding: 15px;
     height: 25vh;
-    font-size: 1rem;
+    /* border: 3px solid; */
+    height: 100%;
 }
 
 main {
     margin: 20px;
-    padding: 40px;
+    padding: 20px;
     height: 100%;
     /* overflow: hidden; */
     /* overflow-y: auto; */
@@ -28,14 +32,16 @@ footer {
     background-color: #307CBF;
     height: 50vh;
     width: 100vw;
-
 }
 
 h1 {
     text-align: center;
-    color:blue;
+    color:#056CF2;
     margin: 20px;
+    text-align: center;
     font-size: 3rem;
+    font-family: noto sans;
+    /* border: 1px solid; */
 }
 
 p {
@@ -56,7 +62,6 @@ nav {
     text-align: center;
     font-weight: 700;
 }
-
 
 /* 
 form {
