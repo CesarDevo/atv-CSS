@@ -1,0 +1,61 @@
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .h1 {
+    color: red;
+}
+
+.p1 {
+    color: blueviolet;
+} */
+
+:root {
+    --cor-primaria: red;
+    --cor-secundaria: blueviolet;
+    --cor-terciaria: lightyellow;
+    --fonte-tamanho: 1.5em;
+
+    /* Pode ser usado, por exemplo, para alterar a cor de todos os títulos de uma vez. */
+}
+
+h1 {
+    color: var(--cor-secundaria);
+    text-align: center;
+    font-size: 5em;
+}
+
+p {
+    color: var(--cor-primaria);
+    line-height: 200%;
+}
+
+.p1 {
+    font-size: var(--fonte-tamanho);
+}
+
+nav {
+    background-color: greenyellow;
+    text-align: center;
+    height: 8vh;
+}
+
+nav > a {
+    text-decoration: none;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: purple;
+    font-size: 3rem;
+    font-weight: 600;
+    height: 8vh;
+    line-height: 8vh;
+    display: inline-block;
+}
+
+nav > a:hover {
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+}
