@@ -1,0 +1,12 @@
+/* Pode ser feito também com classes */
+/* .nome::after {
+ 
+} */
+
+p::before {
+    content: 'Outro textinho - ';
+}
+
+p::after {
+    content: ' --textinho';
+}
