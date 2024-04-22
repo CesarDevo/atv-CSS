@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    font-size: 3rem;
+    background-color:aquamarine;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: 
+        "header header header"
+        "aside main main"
+        "aside main main"
+        "aside main main"
+        "footer footer footer"
+    ;
+}
+
+.box1 {
+    grid-area: header;
+    background-color: brown;
+}
+
+.box2 {
+    grid-area: aside;
+    background-color: cornflowerblue;
+}
+
+.box3 {
+    grid-area: main;
+    background-color: rgb(237, 100, 100)
+}
+
+.box4 {
+    grid-area: footer;
+}

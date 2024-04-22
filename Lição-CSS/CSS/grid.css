@@ -1,0 +1,12 @@
+.container {
+    background-color: darkorchid;
+    height: 50vh;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 25% 50% 25%; */
+    /* grid-template-columns: 200px 200px 200px; */
+    grid-template-rows: 30% 30% 30% 10%;
+}

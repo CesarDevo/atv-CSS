@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.box1 {
+    background-color:blueviolet;
+}
+.box2 {
+    background-color:yellow;
+}
+.box3 {
+    background-color:orangered;
+}
+.box4 {
+    background-color: lightblue;
+}
+
+.box5 {
+    background-color: blue;
+}
+
+.box6 {
+    background-color: orange;
+}
