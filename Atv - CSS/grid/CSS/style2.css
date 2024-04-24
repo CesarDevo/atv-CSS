@@ -1,0 +1,64 @@
+.container {
+    /* margin: 30px;
+    padding: 30px; */
+    height: 50vh;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    /* row-gap: 20px;
+    column-gap: 10px; */
+
+    /* justify-items: center; 
+    align-items: start; */ 
+    /* Valores principais: stretch (padrão), start, end */
+    /* place-items: center start; */
+
+    /* justify-content: center;
+    align-content: center; */
+    /* place-content: center center; */
+
+    /* grid-auto-flow: column; */
+    /* Valores: column, rows e dense */
+}
+
+.box1 {
+    background-color: green;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    /* Eles pegam as linhas de referência */
+}
+
+.box2 {
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+    /* justify-self: start;
+    align-self: center; */
+    place-self: start center;
+
+    /* justify-self: alinhamento horizontal do **item** */
+    /* align-self: alinhamento vertical do **item** */
+}
+
+.box3 {
+    background-color: red;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.box4 {
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
